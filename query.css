@@ -1,0 +1,24 @@
+@media only screen and (max-width: 450px) {
+   .row{
+       font-size: 15px;
+      padding: 30px;
+      width: 100%;
+      
+   }
+   .containers {
+       width: 100%;
+       left: 50px;
+       
+   }
+   .containers div{
+       font-size: 20px;
+   }
+   input{padding: 6px;}
+   .btn{
+       padding: 4px;
+   }
+   .current::before{
+       width: 70%;
+   }
+    /*mobnav*/
+  }

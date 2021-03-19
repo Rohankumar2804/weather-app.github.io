@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400"
+      rel="stylesheet"
+    />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <section>
+      <div class="row container">
+        <h1>WeatherApp</h1>
+        <form action="" onsubmit="return false">
+          <div>
+            <input
+              type="text"
+              class="search"
+              placeholder="search by city name"
+            />
+          </div>
+          <div><button type="submit" class="btn">SUBMIT</button></div>
+          <p class="error"></p>
+        </form>
+        <div class="containers">
+          <div class="icon">
+            <img src="" alt="" class="weather-icon" />
+          </div>
+          <div class="location">
+            <div class="city">New York, US</div>
+            <div class="date">Thursday, MAR 20 2021</div>
+          </div>
+          <div class="current">
+            <div class="temp">Temp: 25 <span>°C</span></div>
+            <div class="weather">Weather: Sunny</div>
+            <div class="temp-range">Temp Range: 10°C / 15°C</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
